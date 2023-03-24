@@ -1,0 +1,334 @@
+[
+  {
+    "Name": "Wrap au thon",
+    "Ingredients": [
+      { "Name": "Wrap", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Thon", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 }
+    ],
+    "PreparationTime": 5
+  },
+  {
+    "Name": "Wrap savoyard",
+    "Ingredients": [
+      { "Name": "Wrap", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Reblochon", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 },
+      { "Name": "Patates", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 6
+  },
+  {
+    "Name": "Pâtes carbonara",
+    "Ingredients": [
+      { "Name": "Pâtes", "Quantity": 1 },
+      { "Name": "Crème", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Lardons", "Quantity": 1 }
+    ],
+    "PreparationTime": 13
+  },
+  {
+    "Name": "Raclette",
+    "Ingredients": [
+      { "Name": "Pommes de terre", "Quantity": 3 },
+      { "Name": "Charcuterie", "Quantity": 1 },
+      { "Name": "Fromage à raclette", "Quantity": 1 }
+    ],
+    "PreparationTime": 30
+  },
+  {
+    "Name": "Wrap nuggets",
+    "Ingredients": [
+      { "Name": "Wrap", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Nuggets", "Quantity": 4 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  },
+  {
+    "Name": "Crèpes comté",
+    "Ingredients": [
+      { "Name": "Crèpes", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 30
+  },
+  {
+    "Name": "Pâtes au pesto",
+    "Ingredients": [
+      { "Name": "Pâtes", "Quantity": 1 },
+      { "Name": "Sauce pesto", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  },
+  {
+    "Name": "Pâtes bolognaise",
+    "Ingredients": [
+      { "Name": "Pâtes", "Quantity": 1 },
+      { "Name": "Sauce bolognaise", "Quantity": 1 },
+      { "Name": "Steak haché", "Quantity": 1 }
+    ],
+    "PreparationTime": 14
+  },
+  {
+    "Name": "Tartine à l'avocat",
+    "Ingredients": [
+      { "Name": "Tranche de pain de campagne / de mie", "Quantity": 3 },
+      { "Name": "Avocat", "Quantity": 3 },
+      { "Name": "Jambon cru", "Quantity": 3 },
+      { "Name": "Oeuf", "Quantity": 1 }
+    ],
+    "PreparationTime": 13
+  },
+  {
+    "Name": "Croques-monsieur",
+    "Ingredients": [
+      { "Name": "Tranches de pain de mie", "Quantity": 6 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 3 },
+      { "Name": "Crème", "Quantity": 1 }
+    ],
+    "PreparationTime": 9
+  },
+  {
+    "Name": "Riz cordon bleu",
+    "Ingredients": [
+      { "Name": "Riz", "Quantity": 1 },
+      { "Name": "Cordon-bleu", "Quantity": 2 },
+      { "Name": "Sauce tomate", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 }
+    ],
+    "PreparationTime": 6
+  },
+  {
+    "Name": "Purée verte",
+    "Ingredients": [
+      { "Name": "Petits pois", "Quantity": 120 },
+      { "Name": "Farine", "Quantity": 1 },
+      { "Name": "Viande (nuggets, cordon-bleu, ...)", "Quantity": 1 }
+    ],
+    "PreparationTime": 70
+  },
+  {
+    "Name": "Purée",
+    "Ingredients": [
+      { "Name": "Purée", "Quantity": 1 },
+      { "Name": "Viande (nuggets, cordon-bleu, chipolatas...)", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  },
+  {
+    "Name": "Fondue",
+    "Ingredients": [
+      { "Name": "Pommes de terre", "Quantity": 3 },
+      { "Name": "Fondue", "Quantity": 1 },
+      { "Name": "Charcuterie", "Quantity": 1 }
+    ],
+    "PreparationTime": 25
+  },
+  {
+    "Name": "Choucroute",
+    "Ingredients": [
+      { "Name": "Choucroute", "Quantity": 1 }
+    ],
+    "PreparationTime": 3
+  },
+  {
+    "Name": "Couscous",
+    "Ingredients": [
+      { "Name": "Couscous", "Quantity": 1 }
+    ],
+    "PreparationTime": 3
+  },
+  {
+    "Name": "Tenders maison",
+    "Ingredients": [
+      { "Name": "Pillons de poulet", "Quantity": 1 },
+      { "Name": "Oeufs", "Quantity": 1 },
+      { "Name": "Farine", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Corns flakes / Miettes de pain / Chapelure", "Quantity": 1 },
+      { "Name": "Paprika", "Quantity": 3 }
+    ],
+    "PreparationTime": 30
+  },
+  {
+    "Name": "Hot dogs",
+    "Ingredients": [
+      { "Name": "Knakis", "Quantity": 1 },
+      { "Name": "Pain de mie / Pain hot-dog", "Quantity": 1 },
+      { "Name": "Sauce tomate / Mayonnaise", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 }
+    ],
+    "PreparationTime": 5
+  },
+  {
+    "Name": "Hamburger viande maison",
+    "Ingredients": [
+      { "Name": "Pain hamburger", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Comté ou fromage hamburger", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 },
+      { "Name": "Steak haché", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  },
+  {
+    "Name": "Hamburger poulet maison",
+    "Ingredients": [
+      { "Name": "Pain hamburger", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Comté ou fromage hamburger", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 },
+      { "Name": "Pillons de poulet", "Quantity": 4 }
+    ],
+    "PreparationTime": 13
+  },
+  {
+    "Name": "Wrap savoyard",
+    "Ingredients": [
+      { "Name": "Wrap", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Reblochon", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 },
+      { "Name": "Patates", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 6
+  },
+  {
+    "Name": "Epinards",
+    "Ingredients": [
+      { "Name": "Epinards", "Quantity": 1 },
+      { "Name": "Crème", "Quantity": 1 },
+      { "Name": "Viande (nuggets, cordon-bleu, ...)", "Quantity": 1 }
+    ],
+    "PreparationTime": 20
+  },
+  {
+    "Name": "Kebab maison",
+    "Ingredients": [
+      { "Name": "Wrap", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 },
+      { "Name": "Viande kebab", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  },
+  {
+    "Name": "Oeufs",
+    "Ingredients": [
+      { "Name": "Oeufs", "Quantity": 3 },
+      { "Name": "Crème", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 5
+  },
+  {
+    "Name": "Magret de canard",
+    "Ingredients": [
+      { "Name": "Magret de canard", "Quantity": 1 },
+      { "Name": "Riz, purée", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 }
+    ],
+    "PreparationTime": 15
+  },
+  {
+    "Name": "Pommes de terre à gratiner au four",
+    "Ingredients": [
+      { "Name": "Pommes de terre", "Quantity": 3 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Sauce pommes de terre", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 30
+  },
+  {
+    "Name": "Crèpes sucrées",
+    "Ingredients": [
+      { "Name": "Oeufs", "Quantity": 3 },
+      { "Name": "Sucre", "Quantity": 3 },
+      { "Name": "Confitures", "Quantity": 1 },
+      { "Name": "Farine", "Quantity": 300 },
+      { "Name": "Beurre", "Quantity": 50 },
+      { "Name": "Lait", "Quantity": 60 },
+      { "Name": "Huile", "Quantity": 2 }
+    ],
+    "PreparationTime": 30
+  },
+  {
+    "Name": "Pâtes au saumon",
+    "Ingredients": [
+      { "Name": "Pâtes", "Quantity": 1 },
+      { "Name": "Crème", "Quantity": 1 },
+      { "Name": "Saumon fumé", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Parmesan", "Quantity": 1 }
+    ],
+    "PreparationTime": 13
+  },
+  {
+    "Name": "Croissants jambon",
+    "Ingredients": [
+      { "Name": "Croissant", "Quantity": 2 },
+      { "Name": "Jambon", "Quantity": 2 },
+      { "Name": "Comté", "Quantity": 1 }
+    ],
+    "PreparationTime": 9
+  },
+  {
+    "Name": "Oeufs mimosa",
+    "Ingredients": [
+      { "Name": "Oeufs", "Quantity": 1 },
+      { "Name": "Thon", "Quantity": 1 },
+      { "Name": "Mayonnaise", "Quantity": 1 },
+      { "Name": "Salade", "Quantity": 1 },
+      { "Name": "Pâtes", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  },
+  {
+    "Name": "Tartare avocat saumon",
+    "Ingredients": [
+      { "Name": "Avocat", "Quantity": 1 },
+      { "Name": "Saumon", "Quantity": 1 }
+    ],
+    "PreparationTime": 6
+  },
+  {
+    "Name": "Omelette",
+    "Ingredients": [
+      { "Name": "Oeufs", "Quantity": 1 },
+      { "Name": "Comté", "Quantity": 1 },
+      { "Name": "Jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 6
+  },
+  {
+    "Name": "Gnocchis fourrés au jambon",
+    "Ingredients": [
+      { "Name": "Gnocchis fourrés au jambon", "Quantity": 1 }
+    ],
+    "PreparationTime": 6
+  },
+  {
+    "Name": "Gnocchis nature",
+    "Ingredients": [
+      { "Name": "Gnocchis", "Quantity": 1 },
+      { "Name": "Nuggets", "Quantity": 1 },
+      { "Name": "Cordon-bleu", "Quantity": 1 },
+      { "Name": "Sauce", "Quantity": 1 }
+    ],
+    "PreparationTime": 10
+  }
+]
