@@ -1,0 +1,10 @@
+<div class="recipe">
+  <div class="title">${Name}</div>
+  <% if(${Ingredients} != null) { %>
+  <div class="ingredients">
+    <% $.each(ingredients, function (index, ingredient) { %>
+      <div class="ingredient">${Ingredient}</div>
+  </div>
+  <% })} %>
+  <div class="time">${PreparationTime}</div>
+</div>
