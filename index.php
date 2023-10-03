@@ -9,12 +9,12 @@
   <script src="index.js"></script>
 </head>
 <body>
-  <!-- <div class="generate">
+  <div class="generate">
     <label for="nb_menus">Nombre de menus :</label>
     <input type="number" name="nb_menus" id="nb_menus">
-    <button id="generate_week">Générer</button>
+    <button id="sb_generate_week">Générer</button>
   </div>
-  <div id="recipes"></div> -->
+  <div id="recipes"></div>
   <div id="navigate"></div>
 </body>
 </html>

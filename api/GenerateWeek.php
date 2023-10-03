@@ -1,9 +1,10 @@
 <?php
 date_default_timezone_set("Europe/Paris");
-$recipes = json_decode(file_get_contents("data.json"), true);
+$request = $_POST;
+$recipes = json_decode(file_get_contents("../data.json"), true);
 $week = array();
 $ingredients = array();
-for ($i=0; $i < 9; $i++) {
+for ($i=0; $i < $request['number']; $i++) {
   $random = rand(0, count($recipes) - 1);
   $recipe = $recipes[$random];
   array_push($week, $recipe);
@@ -20,7 +21,7 @@ for ($i=0; $i < 9; $i++) {
   }
 }
 
-print_r(json_encode($ingredients, JSON_PRETTY_PRINT));
+
 
 $filename = "Menus/".date("dmYhis").".json";
 if(!file_exists($filename)) {
@@ -32,4 +33,11 @@ if(!file_exists($filename)) {
 
 //file_put_contents($filename, json_encode($week, JSON_PRETTY_PRINT));
 //print_r(json_encode($ingredients));
+
+$response = array(
+  'success' => true,
+  'ingredients' => $ingredients,
+  'menus' => $week
+);
+echo json_encode($response, JSON_PRETTY_PRINT);
 ?>
