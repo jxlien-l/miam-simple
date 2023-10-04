@@ -17,8 +17,20 @@ $(document).ready(function() {
   getPage();
   navigate();
   $('#sb_generate_week').click(function(){
-    var test = callAjax({'number': $('input[name="nb_menus"]').val()}, 'GenerateWeek', true);
-    $('body').append(Object.toString(test));
+    var result = callAjax({'number': $('input[name="nb_menus"]').val()}, 'GenerateWeek', true);
+    var recipesHtml = '';
+    var ingredientsHtml = '';
+    result.recipes.forEach(r => {
+      r.Ingredients.forEach(i => {
+        ingredientsHtml += '<div class="ingredient">'+ i.Name +' ('+ i.Quantity +')</div>';
+      });
+      recipesHtml += '<div class="recipe"><span>' + r.Name + ' (' + r.PreparationTime + ')</span>'+ ingredientsHtml +'</div>';
+      ingredientsHtml = '';
+    });
+
+    $('#recipes').append(
+      recipesHtml
+    );
   })
 });
 

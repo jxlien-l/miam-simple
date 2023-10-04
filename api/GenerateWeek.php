@@ -21,23 +21,10 @@ for ($i=0; $i < $request['number']; $i++) {
   }
 }
 
-
-
-$filename = "Menus/".date("dmYhis").".json";
-if(!file_exists($filename)) {
-  //touch($filename);
-  /*$file = fopen($filename, "w") or die("Error while opening the file");
-  fwrite($file, "");
-  fclose($file);*/
-}
-
-//file_put_contents($filename, json_encode($week, JSON_PRETTY_PRINT));
-//print_r(json_encode($ingredients));
-
 $response = array(
   'success' => true,
   'ingredients' => $ingredients,
-  'menus' => $week
+  'recipes' => $week
 );
 echo json_encode($response, JSON_PRETTY_PRINT);
 ?>

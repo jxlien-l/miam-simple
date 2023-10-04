@@ -1,0 +1,46 @@
+:root{
+  --blue: #499dc8;
+}
+
+html {
+  font-family: Arial;
+}
+
+button {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+input {
+  border: 1px solid var(--blue);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#recipes {
+  display: flex;
+}
+
+.recipe {
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  flex-basis: 25em;
+  height: 10em;
+  margin: 10px;
+}
+
+.recipe > span {
+  padding: 4px;
+  width: 100rem;
+  background: #efefef;
+  border-bottom: 1px solid #707070;
+}
+
+.ingredient {
+  padding: 2px;
+  font-size: 12px;
+}
