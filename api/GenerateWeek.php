@@ -21,10 +21,22 @@ for ($i=0; $i < $request['number']; $i++) {
   }
 }
 
+$html = '';
+foreach($week as $recipe) {
+  $ingredientsHtml = '';
+  foreach($recipe['Ingredients'] as $ingredient) {
+    $ingredientsHtml .= '<div class="ingredient">'. $ingredient['Name'] .' ('. $ingredient['Quantity'] .')</div>';
+  }
+  $html .= '<div class="recipe"><div class="title">' . $recipe['Name'] . ' (' . $recipe['PreparationTime'] . ')</div>' . $ingredientsHtml . '</div>';
+  $ingredientHtml = '';
+}
+
+
+
 $response = array(
   'success' => true,
-  'ingredients' => $ingredients,
-  'recipes' => $week
+  'html' => $html,
+  'ingredients' => $ingredients
 );
 echo json_encode($response, JSON_PRETTY_PRINT);
 ?>

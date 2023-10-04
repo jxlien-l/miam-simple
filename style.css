@@ -1,5 +1,5 @@
 :root{
-  --blue: #499dc8;
+  --blue: #5bb0db;
 }
 
 html {
@@ -10,18 +10,22 @@ button {
   background: var(--blue);
   color: #fff;
   border: none;
-  padding: 6px;
+  padding: 10px;
   border-radius: 4px;
 }
 
 input {
   border: 1px solid var(--blue);
-  padding: 5px;
+  padding: 10px;
   border-radius: 4px;
 }
 
 #recipes {
   display: flex;
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .recipe {
@@ -33,14 +37,11 @@ input {
   margin: 10px;
 }
 
-.recipe > span {
+.title {
   padding: 4px;
-  width: 100rem;
-  background: #efefef;
-  border-bottom: 1px solid #707070;
 }
 
 .ingredient {
-  padding: 2px;
+  padding: 4px;
   font-size: 12px;
 }
