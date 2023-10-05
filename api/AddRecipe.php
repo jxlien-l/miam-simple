@@ -1,5 +1,7 @@
 <?php
-$request = $_POST;
+use Api\Api;
+
+$api = new Api();
 
 $recipes = json_decode(file_get_contents("../data.json"), true);
 
@@ -10,6 +12,6 @@ if (in_array($newRecipe, $recipes)) {
   $response = 'Une recette porte déjà le même nom';
 }
 
-echo json_encode(['success' => true, 'response' => $response], JSON_PRETTY_PRINT);
+$this->api->sendResponse(true, $response);
 
 ?>

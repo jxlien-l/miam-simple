@@ -1,4 +1,9 @@
 <?php
+
+use Api\Api;
+
+$api = new Api();
+
 date_default_timezone_set("Europe/Paris");
 $request = $_POST;
 $recipes = json_decode(file_get_contents("../data.json"), true);
@@ -31,12 +36,12 @@ foreach($week as $recipe) {
   $ingredientHtml = '';
 }
 
-
-
 $response = array(
   'success' => true,
   'html' => $html,
   'ingredients' => $ingredients
 );
-echo json_encode($response, JSON_PRETTY_PRINT);
+
+$this->api->sendResponse(true, [$html, $ingredients], 'Voici vos recettes');
+
 ?>
