@@ -1,7 +1,11 @@
 <?php
 use Api\Api;
 
-$api = new Api();
+class test{
+  private $api = new Api();
+function __construct()
+{
+
 
 $recipes = json_decode(file_get_contents("../data.json"), true);
 
@@ -13,5 +17,8 @@ if (in_array($newRecipe, $recipes)) {
 }
 
 $this->api->sendResponse(true, $response);
+
+}
+}
 
 ?>

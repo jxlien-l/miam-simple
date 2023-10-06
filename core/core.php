@@ -5,7 +5,7 @@ namespace Core;
 class Core
 {
   function get_request() {
-    return $_GET . $_POST;
+    return $_GET + $_POST;
   }
 }
 

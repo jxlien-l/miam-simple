@@ -1,3 +1,6 @@
+<?php
+  require('api/Api.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
