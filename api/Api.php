@@ -1,6 +1,6 @@
 <?php
 namespace Api;
-require('core/core.php');
+require('../core/core.php');
 use Core\Core;
 
 class Api extends Core

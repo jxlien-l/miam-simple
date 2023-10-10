@@ -13,13 +13,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="generate">
-    <label for="nb_menus">Nombre de menus :</label>
-    <input type="number" name="nb_menus" id="nb_menus" value="2" min="1">
-    <button id="sb_generate_week">Générer</button>
-  </div>
-  <div id="recipes">
-
-  </div>
+  <header>
+    <a href="/index.php">Home</a> | <a href="/index.php?p=generate">Générer</a> | <a href="#">Exporter</a>
+  </header>
+  <main>
+    <?php
+      $page = 'error404';
+      if(isset($_GET['p'])) {
+        if(file_exists('views/'.$_GET['p'].'.php'))
+        {
+          $page = $_GET['p'];
+        }
+      }
+      include('views/'.$page.'.php');
+    ?>
+  </main>
 </body>
 </html>
