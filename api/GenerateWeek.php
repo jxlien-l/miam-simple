@@ -12,13 +12,14 @@ class GenerateWeek extends Api
     $week = array();
     $ingredients = array();
     $this->request = (new Core())->get_request();
-    print_r($this->request);
     for ($i=0; $i < $this->request['number']; $i++) {
       $random = rand(0, count($recipes) - 1);
       $recipe = $recipes[$random];
       array_push($week, $recipe);
 
+      $system = new Core;
 
+      $system->log('test');
       // Calcul des ingrédients
       foreach($recipe["Ingredients"] as $ingredientToAdd) {
         if(in_array($ingredientToAdd, $ingredients)) {

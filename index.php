@@ -1,5 +1,6 @@
 <?php
-  require('api/Api.php');
+  require('core/core.php');
+  use Core\Core;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,14 +19,7 @@
   </header>
   <main>
     <?php
-      $page = 'error404';
-      if(isset($_GET['p'])) {
-        if(file_exists('views/'.$_GET['p'].'.php'))
-        {
-          $page = $_GET['p'];
-        }
-      }
-      include('views/'.$page.'.php');
+      (new Core())->navigation();
     ?>
   </main>
 </body>

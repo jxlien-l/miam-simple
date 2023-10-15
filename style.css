@@ -1,5 +1,5 @@
 :root{
-  --blue: #5bb0db;
+  --main: #d3c7b1;
 }
 
 html, body {
@@ -9,10 +9,11 @@ html, body {
 
 html {
   font-family: Arial;
+  background: #f5efdd;
 }
 
 header {
-  background: var(--blue);
+  background: var(--main);
   color: #fff;
   font-weight: bold;
   padding: 10px;
@@ -35,7 +36,7 @@ main {
 }
 
 button {
-  background: var(--blue);
+  background: var(--main);
   color: #fff;
   border: none;
   padding: 10px;
@@ -43,7 +44,7 @@ button {
 }
 
 input {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--main);
   padding: 10px;
   border-radius: 4px;
 }
@@ -59,10 +60,11 @@ input {
 .recipe {
   padding: 10px;
   background: #f9f9f9;
-  border-radius: 5px;
+  border-radius: 10px;
   flex-basis: 25em;
   height: 10em;
-  margin: 10px;
+  margin: 15px;
+  box-shadow: 4px 3px 10px -6px #888888;
 }
 
 .title {

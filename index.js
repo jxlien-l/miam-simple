@@ -18,7 +18,7 @@ $(document).ready(function() {
   navigate();
   $('#sb_generate_week').click(function(){
     var result = callAjax({'number': $('input[name="nb_menus"]').val()}, 'GenerateWeek', true);
-    $('#recipes').append(result.html);
+    $('#recipes').append(result.response[0]);
   })
 });
 
