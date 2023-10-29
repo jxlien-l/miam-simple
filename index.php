@@ -1,6 +1,7 @@
 <?php
   require('core/core.php');
   use Core\Core;
+  require('core/DotEnvReader.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,6 +21,8 @@
   <main>
     <?php
       (new Core())->navigation();
+      $reader = new DotEnvReader('.');
+      $reader->getConfiguration();
     ?>
   </main>
 </body>
