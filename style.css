@@ -1,5 +1,9 @@
 :root{
-  --main: #d3c7b1;
+  --background: #FCF5ED;
+  --main: #F4BF96;
+  --secondary: #CE5A67;
+  --secondary-dark: #943843;
+  --dark: #1F1717;
 }
 
 html, body {
@@ -9,24 +13,21 @@ html, body {
 
 html {
   font-family: Arial;
-  background: #f5efdd;
+  background: var(--background);
 }
 
 header {
-  background: var(--main);
-  color: #fff;
+  color: var(--secondary-dark);
   font-weight: bold;
   padding: 10px;
   width: 100vw;
-  height: 2em;
-  margin-bottom: 1em;
-  top: 0;
-  left: 0;
+  height: 4em;
+  margin: 2em;
 }
 
 header > a {
   text-decoration: none;
-  color: #fff;
+  color: var(--secondary);
   cursor: pointer;
 }
 
@@ -59,7 +60,7 @@ input {
 
 .recipe {
   padding: 10px;
-  background: #f9f9f9;
+  background: var(--main);
   border-radius: 10px;
   flex-basis: 25em;
   height: 10em;
@@ -74,4 +75,13 @@ input {
 .ingredient {
   padding: 4px;
   font-size: 12px;
+}
+
+.generate {
+  background: var(--secondary);
+  margin: auto;
+  border-radius: 15px;
+  padding: 12px;
+  width: 85vw;
+  color: var(--background);
 }

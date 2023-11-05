@@ -1,7 +1,10 @@
 <?php
   require('core/core.php');
-  use Core\Core;
   require('core/DotEnvReader.php');
+  require('core/Database.php');
+  require('entity/User.php');
+  use Core\Core;
+  use Entity\User;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +25,17 @@
     <?php
       (new Core())->navigation();
       $reader = new DotEnvReader('.');
-      $reader->getConfiguration();
+      $config = $reader->getConfiguration();
+
+      $cnx = null;
+      try {
+        $cnx = new Database($reader->getValue('DSN'), 'miamuser', 'miampassword');
+      } catch (\Throwable $th) {
+        echo $th;
+      }
+
+      $cnx->update(new User());
+
     ?>
   </main>
 </body>

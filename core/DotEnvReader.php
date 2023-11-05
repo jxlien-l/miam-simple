@@ -25,7 +25,15 @@ class DotEnvReader
     $rows = explode(PHP_EOL, $file);
     foreach ($rows as $value) {
       if(trim($value)[0] !== '#') {
-        $keyValue = explode('=', trim($value));
+        $keyValue = explode('=', trim($value), 2);
+        // $keyValue = explode('=', trim($value));
+
+        // $value = $keyValue[1];
+        // if(isset($keyValue[2])) {
+        //   $line = array_slice($keyValue, 1);
+        //   $value = implode('=', $line);
+        // }
+
         $configuration[$keyValue[0]] = $keyValue[1];
       }
     }

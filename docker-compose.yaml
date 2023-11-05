@@ -16,3 +16,17 @@ services:
     container_name: miam_php
     volumes:
       - ./:/var/www/html
+  mysql:
+    image: mysql
+    container_name: miam_mysql
+    ports:
+      - 8002:3306
+    environment:
+      MYSQL_DATABASE: miam
+      MYSQL_USER: miamuser
+      MYSQL_PASSWORD: miampassword
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+    volumes:
+      - miam_db:/var/lib/mysql
+volumes:
+  miam_db:
